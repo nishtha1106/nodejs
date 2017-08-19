@@ -1,0 +1,82 @@
+[
+  {
+    "year": 2001,
+    "for2001False": 22527,
+    "for2001True": 6611
+  },
+  {
+    "year": 2002,
+    "for2002False": 22487,
+    "for2002True": 6732
+  },
+  {
+    "year": 2003,
+    "for2003False": 20852,
+    "for2003True": 6341
+  },
+  {
+    "year": 2004,
+    "for2004False": 19945,
+    "for2004True": 6349
+  },
+  {
+    "year": 2005,
+    "for2005False": 18683,
+    "for2005True": 6020
+  },
+  {
+    "year": 2006,
+    "for2006False": 17988,
+    "for2006True": 5752
+  },
+  {
+    "year": 2007,
+    "for2007False": 18232,
+    "for2007True": 6003
+  },
+  {
+    "year": 2008,
+    "for2008False": 18545,
+    "for2008True": 4754
+  },
+  {
+    "year": 2009,
+    "for2009False": 15923,
+    "for2009True": 5184
+  },
+  {
+    "year": 2010,
+    "for2010False": 15321,
+    "for2010True": 4605
+  },
+  {
+    "year": 2011,
+    "for2011False": 14200,
+    "for2011True": 4780
+  },
+  {
+    "year": 2012,
+    "for2012False": 14095,
+    "for2012True": 4498
+  },
+  {
+    "year": 2013,
+    "for2013False": 12497,
+    "for2013True": 4143
+  },
+  {
+    "year": 2014,
+    "for2014False": 11565,
+    "for2014True": 4191
+  },
+  {
+    "year": 2015,
+    "for2015False": 12245,
+    "for2015True": 3809
+  },
+  {
+    "year": 2016,
+    "for2016False": 3800,
+    "for2016True": 859
+  }
+]
