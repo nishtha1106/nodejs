@@ -1,10 +1,6 @@
 var readline = require('readline');
 var fs = require('fs');
-var write = [];
-var count1 = [];
-var count2 = [];
-var count3 = [];
-var count4 = [];
+var write = [],count1 = [],count2 = [],count3 = [],count4 = [];
 var rl = readline.createInterface({
     input: fs.createReadStream('crimedata.csv', 'utf-8')
 });
@@ -28,10 +24,10 @@ rl.on('close', function(line) {
     var nonindex = count2.reduce((c, ele) => { c++; return c;}, 0);
     var violent = count3.reduce((c, ele) => { c++; return c;}, 0);
     var property = count4.reduce((c, ele) => { c++; return c; }, 0);
-    write.push({ crime: "index", index });
-    write.push({ crime: "non-index", nonindex });
-    write.push({ crime: "violent", violent });
-    write.push({ crime: "property", property });
+    write.push({index });
+    write.push({nonindex });
+    write.push({violent });
+    write.push({property });
     var json = JSON.stringify(write, null, 2);
     fs.writeFileSync('crime.json', json);
 });
