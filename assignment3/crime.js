@@ -24,10 +24,10 @@ rl.on('close', function(line) {
     var nonindex = count2.reduce((c, ele) => { c++; return c;}, 0);
     var violent = count3.reduce((c, ele) => { c++; return c;}, 0);
     var property = count4.reduce((c, ele) => { c++; return c; }, 0);
-    write.push({index });
-    write.push({nonindex });
-    write.push({violent });
-    write.push({property });
+    write.push({crime:"index", value: index });
+    write.push({crime:"nonindex", value: nonindex });
+    write.push({crime:"violent",value: violent });
+    write.push({crime:"property",value: property });
     var json = JSON.stringify(write, null, 2);
     fs.writeFileSync('crime.json', json);
 });

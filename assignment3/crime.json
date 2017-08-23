@@ -1,14 +1,18 @@
 [
   {
-    "index": 101868
+    "crime": "index",
+    "value": 101868
   },
   {
-    "nonindex": 152390
+    "crime": "nonindex",
+    "value": 152390
   },
   {
-    "violent": 22817
+    "crime": "violent",
+    "value": 22817
   },
   {
-    "property": 79051
+    "crime": "property",
+    "value": 79051
   }
 ]
