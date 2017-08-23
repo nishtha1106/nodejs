@@ -7,6 +7,23 @@
   stroke: steelblue;
   stroke-width: 2px;
 }
+
+.line1 {
+  fill: none;
+  stroke: red;
+  stroke-width: 2px;
+}
+
+.line:hover {
+  fill: none;
+  stroke: pink;
+  stroke-width: 2px;
+}
+.line1:hover {
+  fill: none;
+  stroke: green;
+  stroke-width: 2px;
+}
 </style>
 <body>
 
@@ -74,7 +91,7 @@ function draw(data) {
   // Add the valueline path.
   svg.append("path")
       .data([data])
-      .attr("class", "line")
+      .attr("class", "line1")
       .attr("d", valueline2);  
   // Add the X Axis
   svg.append("g")
