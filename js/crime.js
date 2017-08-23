@@ -29,5 +29,5 @@ rl.on('close', function(line) {
     write.push({crime:"violent",value: violent });
     write.push({crime:"property",value: property });
     var json = JSON.stringify(write, null, 2);
-    fs.writeFileSync('crime.json', json);
+    fs.writeFileSync('../json/crime.json', json);
 });

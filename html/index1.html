@@ -84,7 +84,7 @@ var initStackedBarChart = {
   }
 }
 var key = ["OVER $500", "$500 AND UNDER"];
-var datajson=d3.json("theft.json",function(error, jasonData){
+var datajson=d3.json("../json/theft.json",function(error, jasonData){
 if (error) throw error;
 datajson= jasonData;
 initStackedBarChart.draw({

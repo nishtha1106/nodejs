@@ -1,6 +1,6 @@
 var fs = require('fs');
 var output=[],write=[];
-var work= fs.createWriteStream('theft.json')
+var work= fs.createWriteStream('../json/theft.json')
 var rl = require('readline').createInterface({
     input: require('fs').createReadStream('crimedata.csv')
 });
