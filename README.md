@@ -1,10 +1,13 @@
+Run the codes by using: node --max-old-space-size=4096 <file name>
+
+
 Part 1: Data Munging
 
 Write a Nodejs program that converts the csv file into a json file that will be used to plot data in part 2. You have to come up with an optimal schema for the json file based on the requirements of Part 2.
 
 Part 2: Data Visualization with D3.js
 
-Make a stacked bar chart filtering on the following criteria and aggregated over the given time frame (2001 - 2016) :-
+1. Make a stacked bar chart filtering on the following criteria and aggregated over the given time frame (2001 - 2016) :-
 THEFT OVER $500
 THEFT $500 AND UNDER
 
